@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            height: 300px;
+            width:60%;
+            border-collapse: collapse;
+            border:2px solid black;
+            transform-origin: center;
+            margin-left: auto;
+            margin-right: auto;
+            border:none
+        }
+        table td{
+            height:40px; 
+            width:40px;
+            text-align: center;
+            font-size: 18px;
+            font-family:sans-serif;
+            cursor: pointer;
+            transform-origin: center;
+            transition: transform 0.5s ease-in-out;
+            border:2px solid black;
+            padding: 10px 10px;
+            
+        }
+    
+.name{
+    font-size:10px
+}
+        table td:hover{
+                transform: scale(150%);
+                border:3px solid black
+        }
+        #t2{
+            height:150px;
+            margin-top: 50px;
+        }
+        .data{
+            margin-left: auto;
+            margin-right: auto;
+            height:fit-content;
+            width: fit-content;
+            padding: 10px 10px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        .info{
+            height:fit-content;
+            width: fit-content;
+            padding:10px 10px
+        }
+        .data p{
+            line-height: -10px;
+        }
+        .img{
+            height:300px;
+            width:300px
+        }
+        img{height:100%;width:100%}
+    </style>
+</head>
+<body>
+   <table  border="">
+
+   </table> 
+
+<table id="t2" border></table>
+
+<div class="data">
+    <div class="info">
+    <p>Name: <span id="name" class="p_data"></span></p>
+    <p>Symbol: <span id="symbol" class="p_data"></span></p>
+    <p>Period: <span id="period" class="p_data"></span></p>
+    <p>Group: <span id="group" class="p_data"></span></p>
+    <p>Category: <span id="cat" class="p_data"></span></p>
+    <p>Block: <span id="block" class="p_data"></span></p>
+    <p>Atomic number: <span id="atomic_number" class="p_data"></span></p>
+    <p>Atomic mass: <span id="mass" class="p_data"></span></p>
+    <p>Electronic Configuration: <span id="conf" class="p_data"></span></p>
+    <p>Boiling point: <span id="boil" class="p_data"></span></p>
+    <p>Melting Point: <span id="melt" class="p_data"></span></p>
+    <p>Density: <span id="dense" class="p_data"></span></p>
+    <p>Electronegativity: <span id="nega" class="p_data"></span></p>
+    </div>
+<div class="img">
+    <img src="./n.gif"
+</div>
+
+</div>
+
+
+
+</body>
+<script src="./elements.js"></script>
+<script src="./javascript.js"></script>
+</html>
